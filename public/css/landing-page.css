@@ -1,0 +1,246 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.7 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+header.masthead {
+    position: relative;
+    background-color: #343a40;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    height: 100vh;
+}
+
+header.display {
+    position: relative;
+    background-color: #343a40;
+    background-size: cover;
+    height: 100vh;
+}
+
+header.masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+header.masthead h1 {
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    header.masthead h1 {
+        font-size: 3rem;
+    }
+}
+
+.showcase .showcase-text {
+    padding: 3rem;
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .showcase .showcase-text {
+        padding: 7rem;
+    }
+}
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 5rem;
+}
+
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+    max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.token-number{
+    font-size: 60px;
+    color: #f0001f;
+}
+
+.current-token-number{
+    font-size: 40px;
+    color: #006df0;
+}
+
+.reload{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 9999999999999;
+    background: #FFF url(https://i.pinimg.com/originals/77/0c/1e/770c1e178dc59710dc365a7ff1d8a94c.gif) no-repeat fixed center;
+    opacity: 0.9;
+}
+
+.hide{
+    display: none;
+}
+
+.font-mar{
+    font-size: 29px;
+    padding: 2.1rem 0 2.0rem 0 !important;
+    border: 1px solid;
+}
+
+.red-color{
+    color: #f0001f;
+}
+
+.blue-color{
+    color: #80b9ff;
+}
+
+.div-vh{
+    height: 100vh;
+}
+
+.padtb-16rem{
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+}
+.font-main-dept{
+    font-size: 70px;
+}
+
+.font-main-number{
+    font-size: 85px;
+}
+
+.scrolling{
+    overflow: scroll;
+    height: 100vh;
+}
+
+.mb-2, .my-2 {
+    margin-bottom: 5px!important;
+}
+
+.branch-name{
+    font-weight: 900;
+    font-size: 18px;
+    color: #1579f6;
+}
+
+.marquee-text{
+    width: 100%;
+    height: 58px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ca0000;
+    color: white;
+    font-size: 35px;
+    overflow:hidden;
+}
+
+.marquee-text p {
+    min-width:100%;
+    position: absolute;
+    white-space: nowrap;
+}
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.iti {
+    position: relative;
+     display: block !important;
+    color: #000 !important;
+}
+
+.text-help-style{
+    color: #b1b1b1 !important;
+    font-size: 15px;
+    text-align: left;
+}
+.or-style{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 20px 0;
+}
